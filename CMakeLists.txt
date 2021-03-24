@@ -30,7 +30,7 @@ find_package(PCL 1.10.1 REQUIRED COMPONENTS
     io
 )
 add_definitions(${PCL_DEFINITIONS})
-link_directories(${PCL_LIBRARY_DIRS})
+#link_directories(${PCL_LIBRARY_DIRS})
 ### Eigen
 find_package(Eigen3 REQUIRED)
 
