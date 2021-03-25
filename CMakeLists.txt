@@ -25,7 +25,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 ### PCL
-find_package(PCL 1.10.1 REQUIRED COMPONENTS
+find_package(PCL REQUIRED COMPONENTS
     common
     io
 )
