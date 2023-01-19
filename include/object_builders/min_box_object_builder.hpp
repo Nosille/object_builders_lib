@@ -19,6 +19,8 @@
 #include <Eigen/Core>
 #include <string>
 #include <vector>
+#include <numeric>
+
 
 #include "common/types/object.hpp"
 #include "object_builders/base_object_builder.hpp"
